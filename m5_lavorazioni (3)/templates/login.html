@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title><link rel="stylesheet" href="/static/css/style.css"></head>
+<body>
+<header><h1>Login - M5 Biadesivi</h1></header>
+<main>
+<form method="POST">
+  <input name="username" placeholder="Nome utente" required><br>
+  <input name="password" type="password" placeholder="Password" required><br>
+  <select name="ruolo">
+    <option value="operatore">Operatore</option>
+    <option value="ufficio">Ufficio</option>
+  </select><br>
+  <button type="submit">Login</button>
+</form>
+<p>Non registrato? <a href="/register">Registrati</a></p>
+</main>
+</body>
+</html>
